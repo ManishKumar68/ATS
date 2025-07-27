@@ -1,13 +1,13 @@
 This is a ATS project.
-
+Job Portal App with AI Resume Scanner
 
  ----------------------------------------------------------------------------------------------------------------------------------------
-StudyMaterial: JobPortalAppwithAIResume
- Scanner
- ProjectTeam
- May22,2025
- DocumentOverview
+StudyMaterial: Job Portal App with AI Resume Scanner
+ 
+ ProjectTeam  May22,2025 Document Overview
+ 
  Version: 1.0
+ 
  Preparedfor: StudentsandDevelopers
  
  Contents
