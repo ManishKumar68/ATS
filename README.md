@@ -1,1 +1,1 @@
-# ATS
+This is a ATS project.
