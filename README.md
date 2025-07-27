@@ -75,49 +75,61 @@ The Job Portal App with AIResumeScanner isafull-stack web application design edt
  • Express.js: Backend framework for RESTful APIs and routing.
  • React.js: Frontend library for dynamic, responsive UI with Bootstrap for styling.
  • Node.js: Server-side runtime for scalable API handling.
+ 
  2.2 Additional Tools
  • Cloudinary: Cloud storage for profile images and resumes.
  • JWT&Bcrypt: Secure authentication and password hashing.
  • NLP Libraries: Used for AI resume parsing (e.g., similar to ‘utils.py‘ in ATS Resume Checker for PDF
  processing).
  • Deployment: Vercel (frontend), Render (backend), MongoDB Atlas (database).
+ 
  3 System Architecture
  The application follows a 3-tier architecture for modularity and scalability.
+ 
  3.1 Presentation Layer
  • Built with React.js and Bootstrap.
  • Handles user interactions (e.g., job browsing, resume uploads).
  • Responsive across desktops, tablets, and smartphones.
+ 
  3.2 Business Logic Layer
  • Powered by Node.js and Express.js.
  • Manages authentication (JWT), AI resume scanning, and API logic.
  • Example: Similar to ‘main.py‘’s ‘displayresponse‘functionforprocessingAIresponses.
+ 
  3.3 Data Access Layer
  • Uses MongoDB Atlas for storing user data, jobs, and applications.
  • Communicates via Mongoose schemas, ensuring data integrity.
  [Insert Architecture Diagram Placeholder]
  Figure 2: 3-Tier Architecture
+ 
  4 AI Resume Scanner
  The AI resume scanner is a core feature, using NLP to parse resumes and match them to job descriptions.
+ 
  4.1 Functionality
  • Parsing: Extractsskills, experience, and keywords from resumes (similar to ‘utils.py‘’s ‘inputpdfsetup‘forPDFprocessing
  Scoresresumesbasedonjobrequirements(e.g.,skills,keywords).
  • Output: Provides match scores and highlights relevant qualifications.
+ 
  4.2 Implementation
  • UsesNLPlibraries to analyze text, akin to ‘scoreresume‘in‘utils.py‘.Integratedintothebackend,triggeredwhenemployersviewapplications.
  2
+ 
 5 Development Process
  The project was developed using the Incremental Rapid Application Development (RAD) model over 20 days.
+ 
  5.1 Team Roles
  • Frontend Developer: Built UI with React.js and Bootstrap.
  • Backend Developer: Created APIs with Node.js and Express.js.
  • AI Developer: Implemented NLP for resume scanning.
  • DevOps: Managed deployment on Vercel, Render, and MongoDB Atlas.
+ 
  5.2 Phases
  • Planning: 2 days for requirement gathering.
  • Design: 3 days for UI/UX and database schema.
  • Development: 8 days for coding and unit testing.
  • Integration: 3 days for bug fixing and testing.
  • Deployment: 2 days for cloud setup.
+ 
  6 Key Features
  • Job Seekers: Register, upload resumes, apply for jobs, track applications.
  • Employers: Post jobs, view applications, use AI scanner for candidate selection.
@@ -125,7 +137,9 @@ The Job Portal App with AIResumeScanner isafull-stack web application design edt
  • Reports: Application status, job posting summaries, AI match scores.
  • Responsiveness: Accessible on all devices via Bootstrap.
  [Insert UI Screenshot Placeholder]
+ 
  Figure 3: Sample UI Screenshot
+ 
  7 Learning Outcomes
  Students studying this project will gain:
  • Full-Stack Development: Hands-on experience with MERN stack.
