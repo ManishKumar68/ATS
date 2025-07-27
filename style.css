@@ -1,0 +1,94 @@
+/* General styling */
+.stApp {
+    background-color: #f8fafc;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main title */
+.main-title {
+    color: #1e3a8a;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Subheaders */
+.subheader {
+    color: #334155;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+/* Ensure bold text in h2 tags for scores */
+.subheader strong {
+    font-weight: 700;
+}
+
+/* Score colors */
+.score-skills {
+    color: #1e40af; /* Blue for Skills */
+    margin-right: 1rem;
+}
+.score-experience {
+    color: #15803d; /* Green for Experience */
+    margin-right: 1rem;
+}
+.score-keywords {
+    color: #7e22ce; /* Purple for Keywords */
+    margin-right: 1rem;
+}
+.score-formatting {
+    color: #c2410c; /* Orange for Formatting */
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+.stButton>button:hover {
+    background-color: #3b82f6;
+    color: white;
+}
+
+/* Text area */
+.stTextArea textarea {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+}
+
+/* File uploader */
+.stFileUploader {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+/* Score card */
+.score-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+/* Progress bar */
+.progress-bar {
+    margin-top: 0.5rem;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+}
+.progress-bar > div {
+    background-color: #3b82f6;
+    height: 8px;
+    border-radius: 4px;
+}
